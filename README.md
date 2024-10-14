@@ -1,5 +1,3 @@
-# Practica_Nginx
-
 # Práctica: Configuración de Servidores Web con Nginx en Contenedores Docker
 
 ## 1. Título:
