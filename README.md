@@ -85,14 +85,14 @@ server {
 ### Paso 5: Iniciar los contenedores
 Utiliza los siguientes comandos para crear y ejecutar dos contenedores con los sitios web configurados:
 ```bash
-- docker run --name site1 -v ~/nginx-site1:/usr/share/nginx/html:ro -p 8081:80 -d nginx
-- docker run --name site2 -v ~/nginx-site2:/usr/share/nginx/html:ro -p 8082:80 -d nginx
+docker run --name site1 -v ~/nginx-site1:/usr/share/nginx/html:ro -p 8081:80 -d nginx
+docker run --name site2 -v ~/nginx-site2:/usr/share/nginx/html:ro -p 8082:80 -d nginx
 ```
 ### Paso 6: Verificar en el navegador
 Abre un navegador web y visita los sitios:
 ```bash
-- http://localhost:8081 mostrará el sitio 1.
-- http://localhost:8082 mostrará el sitio 2.
+http://localhost:8081 mostrará el sitio 1.
+http://localhost:8082 mostrará el sitio 2.
 ```
 ### Resultados esperados
 Al finalizar la práctica, deberías tener dos contenedores Nginx ejecutándose en tu máquina, 
